@@ -42,7 +42,7 @@ function promptUser() {
         },
         {
             message: "Enter your Github username:",
-            name: "user-info",
+            name: "username",
             type: "input",
         },
         {
@@ -55,47 +55,44 @@ function promptUser() {
             name: "questions",
             type: "input",
         },
-        {
-            message: "does your project need any badges? if so enter at least one.",
-            name: "badges",
-            type: "input",
-
-        },
     ]);
 }
 
 function generateReadMe(answers) {
 return `# ${answers.project}
-    ## Description
-    ${answers.description}
-    ## Table of Contents
+## Description
+${answers.description}
+## Table of Contents
     
-    *[Installation](#installation)
-    *[Usage](#usage)
-    *[License](#license)
+*[Installation](#installation)
+*[Usage](#usage)
+*[License](#license)
 ​
-    ## Installation
+## Installation
 ​
-    ${answers.installation}
+${answers.installation}
 ​
-    ## Usage
+## Usage
 ​
-    ${answers.usage}
+${answers.usage}
 ​
-    ## License
+## License
 ​
-    ${answers.license}
+${answers.license}
 ​
-    ## Contributing
+## Contributing
 ​
-    ${answers.contributing}
+${answers.contributing}
+* Github username: ${answers.username}
 
-    ## Test
+* Github repository link: ${answers.link}
+
+## Test
 
 
-    ## Questions
+## Questions
 ​
-    ${answers.questions}`;
+${answers.questions}`;
 
 
 

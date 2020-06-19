@@ -1,4 +1,4 @@
-# This CLI app allows the user to creat a README.md file by answering a series of quistions.
+# README.md
     ## Description
     Download all the require files.Second by using node.js run npm to get the dependencies needed to run the program.finally, run "node index" to start answering questions revelant to your README file.
     ## Table of Contents
@@ -7,25 +7,25 @@
     *[Usage](#usage)
     *[License](#license)
 ​
-    ## Installation
+ ## Installation
 ​
     once you have all the necessary components, run "node index" to start answering questions.
 ​
-    ## Usage
+ ## Usage
 ​
     
 ​
-    ## License
+ ## License
 ​
     this project currently has no License.
 ​
-    ## Contributing
+  ## Contributing
 ​
     users can email me or open an issue in GITHUB repository.
 
-    ## Test
+ ## Test
 
 
-    ## Questions
+ ## Questions
 ​
-    undefined
+    users can email me or open an issue in GITHUB repository.
